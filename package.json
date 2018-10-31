@@ -1,0 +1,11 @@
+{
+  "name": "exampledeeplearning",
+  "version": "1.0.0",
+  "description": "Example the use deep learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Hernandez Hernandez",
+  "license": "ISC"
+}
