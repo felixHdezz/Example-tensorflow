@@ -21,7 +21,7 @@ def init():
     
     print (tf.__version__)
 
-#is function main
+#funcion de inicio
 if __name__ == "__main__":
     #calling function init
     init()
