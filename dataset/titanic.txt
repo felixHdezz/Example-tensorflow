@@ -1,0 +1,1 @@
+#Este es una base de datos para el entrenamiento de la red neuronal
