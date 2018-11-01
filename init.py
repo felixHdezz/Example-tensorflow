@@ -10,7 +10,6 @@ def init():
     print ("starting python...")
 
     #importing the database
-
     dataset = pd.read_csv("MOdelling_database.csv")
     
     _X = dataset.iloc[:,2:13].values
@@ -19,11 +18,10 @@ def init():
     print (_X)
     
     print (_Y)
-
-    #print in colosole the tensorflow current version
+    
     print (tf.__version__)
 
-#is function main
+#funcion de inicio
 if __name__ == "__main__":
     #calling function init
     init()
