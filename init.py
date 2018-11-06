@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
-#definition function init
 def init():
     print ("starting python...")
 
@@ -21,7 +20,5 @@ def init():
     
     print (tf.__version__)
 
-#funcion de inicio
 if __name__ == "__main__":
-    #calling function init
     init()
