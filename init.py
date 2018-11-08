@@ -9,7 +9,7 @@ def init():
     print ("starting python...")
 
     #importing the database
-    dataset = pd.read_csv("MOdelling_database.csv")
+    dataset = pd.read_csv("../dataset/MOdelling_database.csv")
     
     _X = dataset.iloc[:,2:13].values
     _Y = dataset.iloc[:, 4].values
